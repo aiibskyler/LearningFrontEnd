@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+<!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+<img src="http://how2j.cn/example.gif" class="img-circle">
+<div class="btn-toolbar" role="toolbar" aria-label="study">
+    <div class="btn-group" role="group" aria-label="java">
+        <button type="button" class="btn btn-default">基础</button>
+        <button type="button" class="btn btn-default">中级</button>
+        <button type="button" class="btn btn-default">高级</button>
+    </div>
+
+    <div class="btn-group" role="group" aria-label="web">
+        <button type="button" class="btn btn-default">Html</button>
+        <button type="button" class="btn btn-default">Css</button>
+        <button type="button" class="btn btn-default">JS</button>
+    </div>
+
+    <div class="btn-group" role="group" aria-label="framework">
+        <button type="button" class="btn btn-default">Hiber</button>
+        <button type="button" class="btn btn-default">Struts</button>
+        <button type="button" class="btn btn-default">Spring</button>
+    </div>
+</div>
+<head>
+    <div class="btn-group" role="group" aria-label="web">
+        <button type="button" class="btn btn-default">Html</button>
+        <button type="button" class="btn btn-default">Css</button>
+        <button type="button" class="btn btn-default">JS</button>
+    </div>
+</head>
+<body>
+<button class="btn btn-primary btn-xs">
+    <span class="glyphicon glyphicon-asterisk"></span> 最小按钮
+</button>
+<button class="btn btn-primary btn">
+    <span class="glyphicon glyphicon-asterisk"></span> 按钮
+</button>
+<table class="table table-hover">
+    <thead>
+        <th>头像</th>
+        <th>名字</th>
+        <th>HP</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <img width="20px" src="http://how2j.cn/study/bootstrap/lol/gareen.png" />
+            </td>
+            <td>盖伦</td>
+            <td>616</td>
+        </tr>
+        <tr>
+            <td>
+                <img width="20px" src="http://how2j.cn/study/bootstrap/lol/teemo.png" />
+            </td>
+            <td>提莫</td>
+            <td>383</td>
+        </tr>
+        <tr>
+            <td>
+                <img width="20px" src="http://how2j.cn/study/bootstrap/lol/akali.png" />
+            </td>
+            <td>阿卡丽</td>
+            <td>448</td>
+        </tr>
+    </tbody>
+</table>
+<p class="bg-info">文字背景</p>
+
+<span class="text-muted">说明性文字</span>
+<input type="text" class="form-control" value="文本框">
+
+<br>
+
+<input type="password" class="form-control" value="password">
+<br>
+<textarea class="form-control">文本域</textarea>
+<br>
+<select class="form-control">
+    <option>Java</option>
+    <option>Html</option>
+    <option>IOS</option>
+</select>
+<button type="button" class="close" aria-hidden="true">
+    &times;
+</button>
+<span class="caret"></span>
+<div class="pull-left">文字浮动到左边</div>
+<div class="pull-right">文字浮动到右边</div>
+<div class="show">显示</div>
+<div class="invisible">隐藏</div>
+<style>
+    div.container div.row div {
+        margin: 5px 0px;
+
+    }
+
+    div.container div.row div {
+        background-color: lightgray;
+        border: 1px solid gray;
+        text-align: center;
+    }
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 ">一共12列</div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-1 ">1列</div>
+        <div class="col-xs-1 ">1列</div>
+        <div class="col-xs-1 ">1列</div>
+        <div class="col-xs-1 ">1列</div>
+        <div class="col-xs-1 ">1列</div>
+        <div class="col-xs-1 ">1列</div>
+        <div class="col-xs-1 ">1列</div>
+        <div class="col-xs-1 ">1列</div>
+        <div class="col-xs-1 ">1列</div>
+        <div class="col-xs-1 ">1列</div>
+        <div class="col-xs-1 ">1列</div>
+        <div class="col-xs-1 ">1列</div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-4 ">占4列</div>
+        <div class="col-xs-4 ">占4列</div>
+        <div class="col-xs-4 ">占4列</div>
+    </div>
+</div>
+<style>
+    div.container div.row div {
+        margin: 5px 0px;
+
+    }
+
+    div.container div.row div {
+        background-color: lightgray;
+        border: 1px solid gray;
+        text-align: center;
+    }
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6 ">一半</div>
+        <div class="col-xs-6 ">一半</div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-8 ">8格</div>
+        <div class="col-xs-6 ">6格</div>
+    </div>
+</div>
+<div class="dropdown">
+    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
+        http://192.168.1.189
+        <span class="caret"></span>
+    </button>
+
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+        <li>
+            <a href="#">HTML</a>
+        </li>
+        <li role="presentation">
+            <a href="#">CSS</a>
+        </li>
+
+        <li role="presentation">
+            <a href="#">Javascript</a>
+        </li>
+        <li role="presentation">
+            <a href="#">AJAX</a>
+        </li>
+    </ul>
+</div>
+
+<div style="height:100px"></div>
+<div class="dropdown">
+    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
+        http://192.168.1.189
+        <span class="caret"></span>
+    </button>
+
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+        <li class="dropdown-header">
+            静态页面
+        </li>
+
+        <li>
+            <a href="#">HTML</a>
+        </li>
+        <li role="presentation">
+            <a href="#">CSS</a>
+        </li>
+
+        <li role="presentation" class="divider"></li>
+
+        <li class="dropdown-header">
+            动态页面
+        </li>
+
+        <li role="presentation">
+            <a href="#">Javascript</a>
+        </li>
+        <li role="presentation">
+            <a href="#">AJAX</a>
+        </li>
+    </ul>
+</div>
+<div style="height:100px"></div>
+<div  align="center">
+
+
+<form class="form-horizontal">
+    <div class="control-group">
+        <label class="control-label" for="inputEmail">Email</label>
+        <div class="controls">
+            <input type="text" id="inputEmail" placeholder="Email">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="inputPassword">Password</label>
+        <div class="controls">
+            <input type="password" id="inputPassword" placeholder="Password">
+        </div>
+    </div>
+    <div class="control-group">
+        <div class="controls">
+            <label class="checkbox">
+                <input type="checkbox"> Remember me
+            </label>
+            <button type="submit" class="btn">Sign in</button>
+        </div>
+    </div>
+</form>
+
+
+<label class="checkbox">
+    <input type="checkbox" value=""> Option one is this and that—be sure to include why it's great
+</label>
+
+<label class="radio">
+    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Option one is this and that—be sure to include why it's great
+</label>
+<label class="radio">
+    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"> Option two can be something else and selecting it will deselect option one
+</label>
+</div>
+
+</body>
+</html>
